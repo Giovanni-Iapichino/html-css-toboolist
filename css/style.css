@@ -121,7 +121,7 @@ ul.task-list {
 
 /* BADGE */
 
-.badge {
+.task-category {
   color: #fff;
   font-size: 10px;
   padding: 5px;
@@ -129,5 +129,26 @@ ul.task-list {
   vertical-align: middle;
 }
 
-.badge.backgroud-color {
+.editorial {
+  background-color: #48aadf;
+}
+
+.q1-goals {
+  background-color: #9b76e0;
+}
+
+.recruiting {
+  background-color: #64c4aa;
+}
+
+.mobile {
+  background-color: #f5a034;
+}
+
+.website {
+  background-color: #d466a6;
+}
+
+.sales {
+  background-color: #abc524;
 }
