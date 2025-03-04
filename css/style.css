@@ -4,14 +4,24 @@
   box-sizing: border-box;
 }
 
+/* GENERICI */
+
 body {
   font-size: 17px;
   background-color: #f5f8f9;
 }
 
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
 /* CONTAINER */
 .container {
-  max-width: 1200px;
+  max-width: 60%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -21,6 +31,10 @@ body {
 header {
   background-color: #fff;
   padding: 20px;
+}
+
+div.header {
+  margin-bottom: 80px;
 }
 
 /* LOGO */
@@ -39,3 +53,39 @@ header {
   margin-left: 10px;
   vertical-align: middle;
 }
+
+/* BOTTONI */
+.container button.btn1 {
+  background-color: #47acec;
+  color: white;
+  padding: 10px;
+  border-radius: 9%;
+  border: 0;
+  margin-left: 7%;
+  margin-bottom: 20px;
+}
+
+.container button.btn2 {
+  background-color: #fff;
+  color: grey;
+  padding: 10px;
+  border-radius: 9%;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+/* TASK */
+
+.task {
+  margin-left: 7%;
+}
+
+.task .task-title {
+  color: #414344;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* SPUNTA */
