@@ -3,3 +3,39 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: 17px;
+  background-color: #f5f8f9;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* LOGO */
+.logo {
+  display: inline-block;
+  width: 80px;
+  vertical-align: middle;
+}
+
+/* TITLE */
+.title {
+  display: inline-block;
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+}
